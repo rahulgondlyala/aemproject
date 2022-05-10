@@ -14,11 +14,11 @@ import javax.inject.Inject;
 public class StudentImpl implements Student{
 
     @Inject       // can also use @ValueMapValue instead of inject
-    @Default (values = "AEM")
+    @Default (values = "")
     String fname;
 
     @Inject      // can also use @ValueMapValue instead of inject
-    @Default (values = "Project")
+    @Default (values = "")
     String lname;
 
 
